@@ -16,7 +16,7 @@ Think of it as bringing a piece of sci-fi into reality — a desktop companion t
 
 This project is being built in phases, with each phase designed to eventually integrate with the others:
 
-### Phase 1: Robotic Arm ✅ In Progress
+### Phase 1: Robotic Arm ✅ Completed
 A compact 5-DOF robotic arm for physical desktop interaction. Started as a 3D-printed PLA prototype, now rebuilt in PETG-CF with plans for precision upgrades.
 
 **Status:** Built and operational. Future improvements planned (stepper motors + cycloidal drives).
@@ -25,19 +25,19 @@ A compact 5-DOF robotic arm for physical desktop interaction. Started as a 3D-pr
 
 ---
 
-### Phase 2: Computer Vision System 🔜 Planned
+### Phase 2: Computer Vision System ⏳ In Progress
 ESP32-CAM-based vision system for environmental awareness and object recognition.
 
-**Status:** Planned. Will enable the arm to "see" and respond to its environment.
+**Status:** In Progress. Will enable the arm to "see" and respond to its environment.
 
 📁 [View Phase 2 Details →](./phase2-vision-system/)
 
 ---
 
-### Phase 3: AI Assistant (Aether) 🔜 Planned
+### Phase 3: AI Assistant (Aether) ⏳ In Progress
 PC-embedded AI assistant that serves as the brain of the system, coordinating between vision and manipulation.
 
-**Status:** Planned. Will unify all phases into one intelligent system.
+**Status:** In Progress. Will unify all phases into one intelligent system.
 
 📁 [View Phase 3 Details →](./phase3-ai-assistant/)
 
@@ -70,8 +70,8 @@ All working together seamlessly as one unified desktop companion.
 ## Current Status
 
 - ✅ **Phase 1** - Robotic arm built and operational
-- ⏳ **Phase 2** - Vision system in planning
-- ⏳ **Phase 3** - AI assistant in planning
+- ⏳ **Phase 2** - Vision system in progress
+- ⏳ **Phase 3** - AI assistant in progress
 - ⏳ **Integration** - Future milestone
 
 ## Project Philosophy
