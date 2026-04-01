@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "boards": {
+    "ai_thinker": {
+      "label": "AI Thinker ESP32-CAM",
+      "supported": true,
+      "support_level": "fully_supported",
+      "flash_files": [
+        {"offset": "0x1000", "path": "ai_thinker/bootloader.bin"},
+        {"offset": "0x8000", "path": "ai_thinker/partitions.bin"},
+        {"offset": "0x10000", "path": "ai_thinker/firmware.bin"}
+      ]
+    },
+    "esp_eye": {
+      "label": "ESP-EYE",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x1000", "path": "esp_eye/bootloader.bin"},
+        {"offset": "0x8000", "path": "esp_eye/partitions.bin"},
+        {"offset": "0x10000", "path": "esp_eye/firmware.bin"}
+      ]
+    },
+    "wrover_kit": {
+      "label": "ESP32 Wrover Kit",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x1000", "path": "wrover_kit/bootloader.bin"},
+        {"offset": "0x8000", "path": "wrover_kit/partitions.bin"},
+        {"offset": "0x10000", "path": "wrover_kit/firmware.bin"}
+      ]
+    },
+    "m5stack_unitcam": {
+      "label": "M5Stack UnitCam",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x1000", "path": "m5stack_unitcam/bootloader.bin"},
+        {"offset": "0x8000", "path": "m5stack_unitcam/partitions.bin"},
+        {"offset": "0x10000", "path": "m5stack_unitcam/firmware.bin"}
+      ]
+    },
+    "m5stack_esp32cam": {
+      "label": "M5Stack ESP32CAM",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x1000", "path": "m5stack_esp32cam/bootloader.bin"},
+        {"offset": "0x8000", "path": "m5stack_esp32cam/partitions.bin"},
+        {"offset": "0x10000", "path": "m5stack_esp32cam/firmware.bin"}
+      ]
+    },
+    "ttgo_t_journal": {
+      "label": "TTGO T-Journal",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x1000", "path": "ttgo_t_journal/bootloader.bin"},
+        {"offset": "0x8000", "path": "ttgo_t_journal/partitions.bin"},
+        {"offset": "0x10000", "path": "ttgo_t_journal/firmware.bin"}
+      ]
+    },
+    "xiao_esp32s3_sense": {
+      "label": "Seeed XIAO ESP32S3 Sense",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x0", "path": "xiao_esp32s3_sense/bootloader.bin"},
+        {"offset": "0x8000", "path": "xiao_esp32s3_sense/partitions.bin"},
+        {"offset": "0x10000", "path": "xiao_esp32s3_sense/firmware.bin"}
+      ]
+    },
+    "firebeetle_esp32s3": {
+      "label": "FireBeetle 2 ESP32-S3",
+      "supported": true,
+      "support_level": "in_progress",
+      "flash_files": [
+        {"offset": "0x0", "path": "firebeetle_esp32s3/bootloader.bin"},
+        {"offset": "0x8000", "path": "firebeetle_esp32s3/partitions.bin"},
+        {"offset": "0x10000", "path": "firebeetle_esp32s3/firmware.bin"}
+      ]
+    }
+  }
+}
